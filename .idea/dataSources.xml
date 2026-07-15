@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="defaultdb@mysql-1519221e-pjmoodb.g.aivencloud.com" uuid="2233f228-f3b6-495d-966a-768df3076c24">
+    <data-source source="LOCAL" name="defaultdb@mysql-a268324-dbstore.b.aivencloud.com" uuid="5929bffa-3fc2-4a40-a970-09f373411cce">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://mysql-1519221e-pjmoodb.g.aivencloud.com:25462/defaultdb</jdbc-url>
+      <jdbc-url>jdbc:mysql://mysql-a268324-dbstore.b.aivencloud.com:11121/defaultdb</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="com.intellij.clouds.kubernetes.db.host.port" />
+        <property name="com.intellij.clouds.kubernetes.db.enabled" value="false" />
+        <property name="com.intellij.clouds.kubernetes.db.container.port" />
+      </jdbc-additional-properties>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="neondb@ep-empty-frog-aok3d30y-pooler.c-2.ap-southeast-1.aws.neon.tech" uuid="c1e73a60-1759-4772-a763-cd5c8dfb0c7f">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://ep-empty-frog-aok3d30y-pooler.c-2.ap-southeast-1.aws.neon.tech:5432/neondb</jdbc-url>
       <jdbc-additional-properties>
         <property name="com.intellij.clouds.kubernetes.db.host.port" />
         <property name="com.intellij.clouds.kubernetes.db.enabled" value="false" />
